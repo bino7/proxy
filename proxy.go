@@ -41,11 +41,12 @@ import (
 	_ "github.com/google/martian/stash"
 	_ "github.com/google/martian/static"
 	_ "github.com/google/martian/status"
+	"fmt"
 )
 
 var (
 	level          = flag.Int("v", 0, "log level")
-	addr           = flag.String("addr", ":80", "host:port of the proxy")
+	//addr           = flag.String("addr", ":8080", "host:port of the proxy")
 	apiAddr        = flag.String("api-addr", ":8181", "port of the configuration api")
 	tlsAddr        = flag.String("tls-addr", ":4443", "host:port of the proxy over TLS")
 	api            = flag.String("api", "martian.proxy", "hostname for the API")
@@ -61,6 +62,9 @@ var (
 )
 
 func main() {
+
+	port := os.Getenv("PORT")
+	addr := fmt.Sprintf(":%s", port)
 
 	flag.Parse()
 
@@ -183,7 +187,7 @@ func main() {
 	rh.SetResponseVerifier(m)
 	configure("/verify/reset", rh)
 
-	l, err := net.Listen("tcp", *addr)
+	l, err := net.Listen("tcp", addr)
 	if err != nil {
 		log.Fatal(err)
 	}
