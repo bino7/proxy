@@ -187,7 +187,7 @@ func main() {
 	rh.SetResponseVerifier(m)
 	configure("/verify/reset", rh)
 
-	l, err := net.Listen("tcp", *addr)
+	l, err := net.Listen("tcp", addr)
 	if err != nil {
 		log.Fatal(err)
 	}
