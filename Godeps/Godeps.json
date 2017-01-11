@@ -1,0 +1,166 @@
+{
+	"ImportPath": "github.com/bino7/proxy",
+	"GoVersion": "go1.7",
+	"GodepVersion": "v75",
+	"Deps": [
+		{
+			"ImportPath": "github.com/google/martian",
+			"Comment": "v2.0.0-beta.2-201-g99f30f6",
+			"Rev": "99f30f6017d67ae910b4d7d11775b9c34aa8c3d9"
+		},
+		{
+			"ImportPath": "github.com/google/martian/api",
+			"Comment": "v2.0.0-beta.2-201-g99f30f6",
+			"Rev": "99f30f6017d67ae910b4d7d11775b9c34aa8c3d9"
+		},
+		{
+			"ImportPath": "github.com/google/martian/body",
+			"Comment": "v2.0.0-beta.2-201-g99f30f6",
+			"Rev": "99f30f6017d67ae910b4d7d11775b9c34aa8c3d9"
+		},
+		{
+			"ImportPath": "github.com/google/martian/cookie",
+			"Comment": "v2.0.0-beta.2-201-g99f30f6",
+			"Rev": "99f30f6017d67ae910b4d7d11775b9c34aa8c3d9"
+		},
+		{
+			"ImportPath": "github.com/google/martian/cors",
+			"Comment": "v2.0.0-beta.2-201-g99f30f6",
+			"Rev": "99f30f6017d67ae910b4d7d11775b9c34aa8c3d9"
+		},
+		{
+			"ImportPath": "github.com/google/martian/fifo",
+			"Comment": "v2.0.0-beta.2-201-g99f30f6",
+			"Rev": "99f30f6017d67ae910b4d7d11775b9c34aa8c3d9"
+		},
+		{
+			"ImportPath": "github.com/google/martian/filter",
+			"Comment": "v2.0.0-beta.2-201-g99f30f6",
+			"Rev": "99f30f6017d67ae910b4d7d11775b9c34aa8c3d9"
+		},
+		{
+			"ImportPath": "github.com/google/martian/har",
+			"Comment": "v2.0.0-beta.2-201-g99f30f6",
+			"Rev": "99f30f6017d67ae910b4d7d11775b9c34aa8c3d9"
+		},
+		{
+			"ImportPath": "github.com/google/martian/header",
+			"Comment": "v2.0.0-beta.2-201-g99f30f6",
+			"Rev": "99f30f6017d67ae910b4d7d11775b9c34aa8c3d9"
+		},
+		{
+			"ImportPath": "github.com/google/martian/httpspec",
+			"Comment": "v2.0.0-beta.2-201-g99f30f6",
+			"Rev": "99f30f6017d67ae910b4d7d11775b9c34aa8c3d9"
+		},
+		{
+			"ImportPath": "github.com/google/martian/log",
+			"Comment": "v2.0.0-beta.2-201-g99f30f6",
+			"Rev": "99f30f6017d67ae910b4d7d11775b9c34aa8c3d9"
+		},
+		{
+			"ImportPath": "github.com/google/martian/marbl",
+			"Comment": "v2.0.0-beta.2-201-g99f30f6",
+			"Rev": "99f30f6017d67ae910b4d7d11775b9c34aa8c3d9"
+		},
+		{
+			"ImportPath": "github.com/google/martian/martianhttp",
+			"Comment": "v2.0.0-beta.2-201-g99f30f6",
+			"Rev": "99f30f6017d67ae910b4d7d11775b9c34aa8c3d9"
+		},
+		{
+			"ImportPath": "github.com/google/martian/martianlog",
+			"Comment": "v2.0.0-beta.2-201-g99f30f6",
+			"Rev": "99f30f6017d67ae910b4d7d11775b9c34aa8c3d9"
+		},
+		{
+			"ImportPath": "github.com/google/martian/martianurl",
+			"Comment": "v2.0.0-beta.2-201-g99f30f6",
+			"Rev": "99f30f6017d67ae910b4d7d11775b9c34aa8c3d9"
+		},
+		{
+			"ImportPath": "github.com/google/martian/messageview",
+			"Comment": "v2.0.0-beta.2-201-g99f30f6",
+			"Rev": "99f30f6017d67ae910b4d7d11775b9c34aa8c3d9"
+		},
+		{
+			"ImportPath": "github.com/google/martian/method",
+			"Comment": "v2.0.0-beta.2-201-g99f30f6",
+			"Rev": "99f30f6017d67ae910b4d7d11775b9c34aa8c3d9"
+		},
+		{
+			"ImportPath": "github.com/google/martian/mitm",
+			"Comment": "v2.0.0-beta.2-201-g99f30f6",
+			"Rev": "99f30f6017d67ae910b4d7d11775b9c34aa8c3d9"
+		},
+		{
+			"ImportPath": "github.com/google/martian/parse",
+			"Comment": "v2.0.0-beta.2-201-g99f30f6",
+			"Rev": "99f30f6017d67ae910b4d7d11775b9c34aa8c3d9"
+		},
+		{
+			"ImportPath": "github.com/google/martian/pingback",
+			"Comment": "v2.0.0-beta.2-201-g99f30f6",
+			"Rev": "99f30f6017d67ae910b4d7d11775b9c34aa8c3d9"
+		},
+		{
+			"ImportPath": "github.com/google/martian/port",
+			"Comment": "v2.0.0-beta.2-201-g99f30f6",
+			"Rev": "99f30f6017d67ae910b4d7d11775b9c34aa8c3d9"
+		},
+		{
+			"ImportPath": "github.com/google/martian/priority",
+			"Comment": "v2.0.0-beta.2-201-g99f30f6",
+			"Rev": "99f30f6017d67ae910b4d7d11775b9c34aa8c3d9"
+		},
+		{
+			"ImportPath": "github.com/google/martian/proxyutil",
+			"Comment": "v2.0.0-beta.2-201-g99f30f6",
+			"Rev": "99f30f6017d67ae910b4d7d11775b9c34aa8c3d9"
+		},
+		{
+			"ImportPath": "github.com/google/martian/querystring",
+			"Comment": "v2.0.0-beta.2-201-g99f30f6",
+			"Rev": "99f30f6017d67ae910b4d7d11775b9c34aa8c3d9"
+		},
+		{
+			"ImportPath": "github.com/google/martian/servemux",
+			"Comment": "v2.0.0-beta.2-201-g99f30f6",
+			"Rev": "99f30f6017d67ae910b4d7d11775b9c34aa8c3d9"
+		},
+		{
+			"ImportPath": "github.com/google/martian/skip",
+			"Comment": "v2.0.0-beta.2-201-g99f30f6",
+			"Rev": "99f30f6017d67ae910b4d7d11775b9c34aa8c3d9"
+		},
+		{
+			"ImportPath": "github.com/google/martian/stash",
+			"Comment": "v2.0.0-beta.2-201-g99f30f6",
+			"Rev": "99f30f6017d67ae910b4d7d11775b9c34aa8c3d9"
+		},
+		{
+			"ImportPath": "github.com/google/martian/static",
+			"Comment": "v2.0.0-beta.2-201-g99f30f6",
+			"Rev": "99f30f6017d67ae910b4d7d11775b9c34aa8c3d9"
+		},
+		{
+			"ImportPath": "github.com/google/martian/status",
+			"Comment": "v2.0.0-beta.2-201-g99f30f6",
+			"Rev": "99f30f6017d67ae910b4d7d11775b9c34aa8c3d9"
+		},
+		{
+			"ImportPath": "github.com/google/martian/trafficshape",
+			"Comment": "v2.0.0-beta.2-201-g99f30f6",
+			"Rev": "99f30f6017d67ae910b4d7d11775b9c34aa8c3d9"
+		},
+		{
+			"ImportPath": "github.com/google/martian/verify",
+			"Comment": "v2.0.0-beta.2-201-g99f30f6",
+			"Rev": "99f30f6017d67ae910b4d7d11775b9c34aa8c3d9"
+		},
+		{
+			"ImportPath": "golang.org/x/net/websocket",
+			"Rev": "4bb47a1098b37d69980d96237e2ae4ff56bb5a95"
+		}
+	]
+}
